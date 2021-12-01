@@ -248,6 +248,21 @@ Helper contract for `GatewayVaultGovernance` that can create new Gateway Vaults.
 Governance that manages all Gateway Vaults params and can deploy a new Gateway Vault.
 [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#gatewayvaultgovernance).
 
+**LpIssuer**
+
+Contract that mints and burns LP tokens in exchange for ERC20 liquidity.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#lpissuer).
+
+**LpIssuerFactory**
+
+Helper contract for `LpIssuerGovernance` that can create new Lp Issuers.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#lpissuerfactory).
+
+**LpIssuerGovernance**
+
+Governance that manages all LpIssuers params and can deploy a new LpIssuer.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#lpissuergovernance).
+
 ### External calls made by our contracts:
 
 - Aave
