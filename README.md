@@ -281,7 +281,7 @@ Only tokens whitelisted by Protocol Governance can be used for creating new Vaul
 
 See Contracts [README.md](https://github.com/code-423n4/2021-12-mellow/blob/main/mellow-vaults/README.md)
 
-## Run unit tests
+### Run unit tests
 
 Required env variables (could be addred to `.env` file):
 
@@ -303,7 +303,7 @@ yarn coverage
 open coverage/index.html
 ```
 
-## Deploy
+### Deploy
 
 Required env variables (could be added to `.env` file):
 
@@ -321,7 +321,7 @@ yarn deploy:hardhat
 # or yarn deploy:mainnet
 ```
 
-## Check contract size
+### Check contract size
 
 ```bash
 yarn
