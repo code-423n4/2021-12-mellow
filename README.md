@@ -114,7 +114,11 @@ Vaults allocate multiple ERC-20 tokens into other DeFi protocols and rebalance t
 # Useful links 🧐
 
 [Protocol documentation](https://docs.mellow.finance/) – the most complete information about the contracts
-[Vaults design article](https://mellowprotocol.medium.com/mellow-protocol-vaults-design-ed09bed7b869) – protocol design overview
+
+[Contract API](https://docs.mellow.finance/mellow-permissionless-vaults/api) - gitbook docs generated from contracts
+
+[Vaults design article](https://mellowprotocol.medium.com/mellow-protocol-vaults-design-ed09bed7b869) – protocol design overview (A Medium article)
+
 [Twitter](https://twitter.com/Mellowprotocol) | [Discord](https://discord.gg/w6sJDJrV65) | [Website](https://mellow.finance/)
 
 # Contest Scope ✅
@@ -166,6 +170,13 @@ Upon Vault creation, the Vault Registry contract mints a new ERC-721 token that 
 ## 📟 Contracts overview 📟
 
 ### External calls made by our contracts:
+
+- Aave
+  - LendingPool: `deposit`, `withdraw`, `getReserveData`
+  - aTokens: `balanceOf`
+- Uniswap
+  - Router: `exactInput`, `exactOutput`
+  - NonfungiblePositionManager: `increaseLiquidity`, `decreaseLiquidity`, `collect`, `positions`
 
 ## How we protect the protocol 🔐
 
