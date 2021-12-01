@@ -2,6 +2,8 @@
 
 ![](images/bg.png)
 
+![CI](https://github.com/mellow-finance/mellow-vaults/actions/workflows/ci.yml/badge.svg)
+
 **We're buliding permissionless vaults ecosystem for trustless automatic DeFi strategies.
 The protocol is designed for implementing multi-token cross-protocol liquidity rebalancing.**
 
@@ -28,11 +30,20 @@ Required env variables (could be addred to `.env` file):
 
 ```
 MAINNET_RPC=<ethereum rpc endpoint>
+KOVAN_RPC=<ethereum rpc endpoint>
 ```
+
+MAINNET_RPC should be able to serve acrhive node api. E.g. [Alchemy](https://www.alchemy.com/) can do that.
 
 ```bash
 yarn
 yarn coverage
+```
+
+**Tests coverage report**
+
+```bash
+open coverage/index.html
 ```
 
 ## Run property tests (WIP)
@@ -46,17 +57,13 @@ pip install -r requirements.txt
 brownie test
 ```
 
-**Property tests coverage report**
-
-```bash
-open coverage/index.html
-```
-
 ## Deploy
 
-Required env variables (could be addred to `.env` file):
+Required env variables (could be added to `.env` file):
 
 ```
+MAINNET_RPC=<ethereum rpc endpoint>
+KOVAN_RPC=<ethereum rpc endpoint>
 MAINNET_DEPLOYER_PK=0x.... # for mainnet deploy
 KOVAN_DEPLOYER_PK=0x.... # for kovan deploy
 ```
