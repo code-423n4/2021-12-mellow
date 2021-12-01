@@ -218,6 +218,21 @@ Helper contract for `UniV3VaultGovernance` that can create new UniV3 Vaults.
 Governance that manages all UniV3 Vaults params and can deploy a new UniV3 Vault.
 [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#univ3vaultgovernance).
 
+**ERC20Vault**
+
+Vault that stores ERC20 tokens.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#erc20vault).
+
+**ERC20VaultFactory**
+
+Helper contract for `ERC20VaultGovernance` that can create new ERC20 Vaults.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#erc20vaultfactory).
+
+**ERC20VaultGovernance**
+
+Governance that manages all ERC20 Vaults params and can deploy a new ERC20 Vault.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#erc20vaultgovernance).
+
 ### External calls made by our contracts:
 
 - Aave
