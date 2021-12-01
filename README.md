@@ -92,13 +92,14 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
 # Welcome to Mellow Protocol 👾
+
 ![](https://github.com/code-423n4/2021-12-mellow/blob/main/bg.png)
 
 Hello legends! 💪
 
-🧐  We look forward to you dissecting our code and helping us improve the security! Feel free to ask any small or big questions, and ask for guidance or clarifications.
+🧐 We look forward to you dissecting our code and helping us improve the security! Feel free to ask any small or big questions, and ask for guidance or clarifications.
 
-💬  Please pay attention to the docs and shoot any questions you have on Discord - we’ll be online to respond.
+💬 Please pay attention to the docs and shoot any questions you have on Discord - we’ll be online to respond.
 
 TBA - LOGO, etc
 
@@ -309,6 +310,18 @@ Base contract for every trader contract (a contract that can execute ERC20 swaps
   - yTokens: `deposit`, `withdraw`, `balanceOf`
 
 ## How we protect the protocol 🔐
+
+VaultRegistry mints a unique ERC721 NFT for each Vault. Access control is based on that NFTs:
+
+1. Nft Owner can freely push and pull liquidity from the vault
+2. Nft approved person can push, but pull only to other vaults which are in the same [Vault System](https://docs.mellow.finance/mellow-permissionless-vaults/definitions#vault-system)
+3. ERC-721 ApprovedForAll cannot do anything (i.e. irrelevant to access control)
+
+Additionally Protocol Governance admin can perform certain tasks on protocol management and emergency shutdown:
+
+1. Disable / migrate strategies (by changing approve rights for Nfts in VaultRegistry)
+2. Set strategy and protocol params on VaultGovernance level, incl setting deposit limits to 0
+3. Reclaiming tokens that are sent by mistake on vaults
 
 ## Known trade-offs in the current design 🎚️
 
