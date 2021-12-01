@@ -92,12 +92,13 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
 # Welcome to Mellow Protocol 👾
+![](https://github.com/code-423n4/2021-12-mellow/blob/main/bg.png)
 
-Hello legends!💪
+Hello legends! 💪
 
-🧐 We look forward to you dissecting our code and helping us improve the security! Feel free to ask any small or big questions, and ask for guidance or clarifications.
+🧐  We look forward to you dissecting our code and helping us improve the security! Feel free to ask any small or big questions, and ask for guidance or clarifications.
 
-💬 Please pay attention to the docs and shoot any questions you have on Discord - we’ll be online to respond.
+💬  Please pay attention to the docs and shoot any questions you have on Discord - we’ll be online to respond.
 
 TBA - LOGO, etc
 
