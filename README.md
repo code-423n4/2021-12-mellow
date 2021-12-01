@@ -35,35 +35,35 @@ The following contracts are in scope:
 |-|-|-|-|-|-|-|
 
 
-|contracts/LpIssuer.sol                                |                   35      |       48      |      278
-|contracts/UniV3Vault.sol                              |                   24      |       11      |      209
-|contracts/GatewayVault.sol                            |                   19      |       12      |      197
-|contracts/LpIssuerGovernance.sol                      |                   26      |       60      |      188
-|contracts/ProtocolGovernance.sol                      |                   35      |       31      |      183
-|contracts/Vault.sol                                   |                   30      |       60      |      177
-|contracts/VaultGovernance.sol                         |                   34      |       54      |      158
-|contracts/trader/UniV3Trader.sol                      |                   16      |        4      |      151
-|contracts/VaultRegistry.sol                           |                   23      |       34      |      110
-|contracts/libraries/CommonLibrary.sol                 |                    6      |       22      |       98
-|contracts/ERC20Vault.sol                              |                   11      |        9      |       86
-|contracts/GatewayVaultGovernance.sol                  |                   12      |       32      |       81
-|contracts/trader/ChiefTrader.sol                      |                   13      |        8      |       81
-|contracts/AaveVault.sol                               |                   11      |       23      |       76
-|contracts/YearnVault.sol                              |                   11      |       23      |       75
-|contracts/YearnVaultGovernance.sol                    |                   12      |       25      |       60
-|contracts/libraries/ExceptionsLibrary.sol             |                    1      |        2      |       53
-|contracts/AaveVaultGovernance.sol                     |                    8      |       18      |       42
-|contracts/UniV3VaultGovernance.sol                    |                    7      |       18      |       42
-|contracts/ERC20VaultGovernance.sol                    |                   10      |       18      |       39
-|contracts/DefaultAccessControl.sol                    |                    4      |        8      |       17
-|contracts/LpIssuerFactory.sol                         |                    4      |        5      |       16
-|contracts/UniV3VaultFactory.sol                       |                    4      |        7      |       16
-|contracts/AaveVaultFactory.sol                        |                    4      |        5      |       15
-|contracts/ERC20VaultFactory.sol                       |                    4      |        5      |       15
-|contracts/GatewayVaultFactory.sol                     |                    4      |        5      |       15
-|contracts/YearnVaultFactory.sol                       |                    4      |        5      |       15
-|contracts/trader/Trader.sol                           |                    4      |        2      |       13
-|contracts/trader/libraries/TraderExceptionsLibrary.sol|                    1      |        1       |      13
+| contracts/LpIssuer.sol                                |                   35      |       48      |      278
+| contracts/UniV3Vault.sol                              |                   24      |       11      |      209
+| contracts/GatewayVault.sol                            |                   19      |       12      |      197
+| contracts/LpIssuerGovernance.sol                      |                   26      |       60      |      188
+| contracts/ProtocolGovernance.sol                      |                   35      |       31      |      183
+| contracts/Vault.sol                                   |                   30      |       60      |      177
+| contracts/VaultGovernance.sol                         |                   34      |       54      |      158
+| contracts/trader/UniV3Trader.sol                      |                   16      |        4      |      151
+| contracts/VaultRegistry.sol                           |                   23      |       34      |      110
+| contracts/libraries/CommonLibrary.sol                 |                    6      |       22      |       98
+| contracts/ERC20Vault.sol                              |                   11      |        9      |       86
+| contracts/GatewayVaultGovernance.sol                  |                   12      |       32      |       81
+| contracts/trader/ChiefTrader.sol                      |                   13      |        8      |       81
+| contracts/AaveVault.sol                               |                   11      |       23      |       76
+| contracts/YearnVault.sol                              |                   11      |       23      |       75
+| contracts/YearnVaultGovernance.sol                    |                   12      |       25      |       60
+| contracts/libraries/ExceptionsLibrary.sol             |                    1      |        2      |       53
+| contracts/AaveVaultGovernance.sol                     |                    8      |       18      |       42
+| contracts/UniV3VaultGovernance.sol                    |                    7      |       18      |       42
+| contracts/ERC20VaultGovernance.sol                    |                   10      |       18      |       39
+| contracts/DefaultAccessControl.sol                    |                    4      |        8      |       17
+| contracts/LpIssuerFactory.sol                         |                    4      |        5      |       16
+| contracts/UniV3VaultFactory.sol                       |                    4      |        7      |       16
+| contracts/AaveVaultFactory.sol                        |                    4      |        5      |       15
+| contracts/ERC20VaultFactory.sol                       |                    4      |        5      |       15
+| contracts/GatewayVaultFactory.sol                     |                    4      |        5      |       15
+| contracts/YearnVaultFactory.sol                       |                    4      |        5      |       15
+| contracts/trader/Trader.sol                           |                    4      |        2      |       13
+| contracts/trader/libraries/TraderExceptionsLibrary.sol |                    1      |        1       |      13
 
 ## Invariants that should uphold at all times ✅
 
