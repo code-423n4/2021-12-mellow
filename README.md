@@ -93,7 +93,7 @@ This repo will be made public before the start of the contest. (C4 delete this l
 
 # Welcome to Mellow Protocol 👾
 
-![](https://github.com/code-423n4/2021-12-mellow/blob/main/bg.png)
+![](bg.png)
 
 Hello legends! 💪
 
