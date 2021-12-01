@@ -322,6 +322,8 @@ Additionally Protocol Governance admin can perform certain tasks on protocol man
 2. Set strategy and protocol params on VaultGovernance level, incl setting deposit limits to 0
 3. Reclaiming tokens that are sent by mistake on vaults
 
+Only tokens whitelisted by Protocol Governance can be used for creating new Vaults
+
 ## Invariants that should uphold at all times
 
 1. Strategy (approved ERC721 person) should not be able to pull the funds anywhere outside of the vault system
