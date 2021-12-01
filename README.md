@@ -28,7 +28,7 @@ Hello legends! 💪
 
 [Twitter](https://twitter.com/Mellowprotocol) | [Discord](https://discord.gg/w6sJDJrV65) | [Website](https://mellow.finance/)
 
-# Contest Scope 
+# Contest Scope 🎓
 
 The following contracts are in scope:
 
@@ -329,3 +329,5 @@ yarn
 yarn size
 ```
 
+
+Good luck and may the Force be with you!✨
