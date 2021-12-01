@@ -80,10 +80,10 @@ The following contracts are in scope:
 Feel free to ping us:
 
 | Name | Discord        |
-| ---- | -------------- |
-| Alex | @AlexK#7957    |
-| Mike | Mikhail S#8699 |
-| Nick | @0xn1ck#9123   |
+| ------- | --------------- |
+| Alex    | @AlexK#7957     |
+| Mikhail | @Mikhail S#8699 |
+| Nick    | @0xn1ck#9123    |
 
 We're happy to answer any questions and discuss every suggestion.
 
