@@ -335,6 +335,6 @@ Additionally Protocol Governance admin can perform certain tasks on protocol man
 7. Bad actor on governance side cannot permanently lock protocol / pools / etc
 8. VaultTokens are sorted by address in any vault
 
-## Setup, tests, etc
+## Setup, tests, etc.
 
-See Contracts [README.md](mellow-vaults)
+See Contracts [README.md](https://github.com/code-423n4/2021-12-mellow/blob/main/mellow-vaults/README.md)
