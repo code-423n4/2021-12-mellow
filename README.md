@@ -323,16 +323,17 @@ Additionally Protocol Governance admin can perform certain tasks on protocol man
 2. Set strategy and protocol params on VaultGovernance level, incl setting deposit limits to 0
 3. Reclaiming tokens that are sent by mistake on vaults
 
-## Known trade-offs in the current design 🎚️
+## Invariants that should uphold at all times
 
-## Preemptive questions and answers ❓
+2. Strategy (approved ERC721 person) should not be able to pull the funds anywhere outside of the vault system
+3. Liquidity provider shall be able to withdraw funds at all times
+4. No one should be able to withdraw smth with zero investment (i.e. no arbitrage / exploits is possible).
+5. No one can block withdrawing or claim funds which doesn't not belong to him
+6. Governance cannot withdraw liquidity provider funds (with the exception of tokens which are not managed by the Vault)
+7. Governance cannot block liquidity provider funds for withdrawing
+8. Bad actor on governance side cannot permanently lock protocol / pools / etc
+9. VaultTokens are sorted by address in any vault
 
-## Other notes and thoughts ✍️
+## Setup, tests, etc
 
-**External Risks**
-
-## Setup
-
-See Contracts [README.md]()
-
-## How to run the tests
+See Contracts [README.md](mellow-vaults)
