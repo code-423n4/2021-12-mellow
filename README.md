@@ -175,14 +175,35 @@ Upon Vault creation, the Vault Registry contract mints a new ERC-721 token that 
 
 ## 📟 Contracts overview 📟
 
-- AaveVault: Vault that interfaces Aave protocol in the integration layer.
-  [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevault).
+### AaveVault
 
-- AaveVaultFactory: Helper contract for `AaveVaultGovernance` that can create new Aave Vaults.
-  [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevaultfactory).
+Vault that interfaces Aave protocol in the integration layer.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevault).
 
-- AaveVaultGovernance: Governance that manages all Aave Vaults params and can deploy a new Aave Vault.
-  [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevaultgovernance).
+### AaveVaultFactory
+
+Helper contract for `AaveVaultGovernance` that can create new Aave Vaults.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevaultfactory).
+
+### AaveVaultGovernance
+
+Governance that manages all Aave Vaults params and can deploy a new Aave Vault.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevaultgovernance).
+
+### YearnVault
+
+Vault that interfaces Yearn protocol in the integration layer.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#yearnvault).
+
+### YearnVaultFactory
+
+Helper contract for `YearnVaultGovernance` that can create new Yearn Vaults.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#yearnvaultfactory).
+
+### YearnVaultGovernance
+
+Governance that manages all Yearn Vaults params and can deploy a new Yearn Vault.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#yearnvaultgovernance).
 
 ### External calls made by our contracts:
 
