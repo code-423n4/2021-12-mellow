@@ -33,7 +33,7 @@ Hello legends! 💪
 The following contracts are in scope:
 |File|Comments|Code|Statements|Branches|Functions|Lines (excluding global variable declarations, function signatures , run over lines and event definitions)
 |-|-|-|-|-|-|-|
-| contracts/LpIssuer.sol                                |                   35      |       48      |      278
+| contracts/LpIssuer.sol                                |                   35      |       48      |      278  
 | contracts/UniV3Vault.sol                              |                   24      |       11      |      209
 | contracts/GatewayVault.sol                            |                   19      |       12      |      197
 | contracts/LpIssuerGovernance.sol                      |                   26      |       60      |      188
@@ -109,7 +109,7 @@ Vaults allocate multiple ERC-20 tokens into other DeFi protocols and rebalance t
 A typical vault and strategy setup would be made by using Mellow Permissioless Vaults _deployVault_ function. As a result, the following set of smart contracts (called Vault System) would be established **for every strategy and token pair**:
 ![](https://miro.medium.com/max/1400/1*GeSO8eJ8WZUEjgko8V3LkQ.gif)
 
-## Protocol architecture
+## Protocol architecture 🛠
 
 ![](https://miro.medium.com/max/2000/1*L4INk2ZLKCylmw1Yt28JTw.png)
 There are two types of contracts on the diagram:
@@ -124,7 +124,7 @@ We can logically separate contracts into Vault Groups. Each Vault Group is a set
 
 Upon Vault creation, the Vault Registry contract mints a new ERC-721 token that represents that Vault.
 
-## 📟 Contracts overview 📟
+## Contracts overview 📟
 
 **AaveVault**
 
@@ -274,7 +274,7 @@ Additionally Protocol Governance admin can perform certain tasks on protocol man
 2. Set strategy and protocol params on VaultGovernance level, incl setting deposit limits to 0
 3. Reclaiming tokens that are sent by mistake on vaults
 
-Only tokens whitelisted by Protocol Governance can be used for creating new Vaults
+Only tokens whitelisted by Protocol Governance can be used for creating new Vaults.
 
 ## Setup, tests, etc.
 
