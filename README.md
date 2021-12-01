@@ -42,6 +42,17 @@ The following contracts are in scope:
 ||||||||
 ||||||||
 
+## Invariants that should uphold at all times
+
+1. Strategy (approved ERC721 person) should not be able to pull the funds anywhere outside of the vault system
+2. Liquidity provider shall be able to withdraw funds at all times
+3. No one should be able to withdraw smth with zero investment (i.e. no arbitrage / exploits is possible).
+4. No one can block withdrawing or claim funds which doesn't not belong to him
+5. Governance cannot withdraw liquidity provider funds (with the exception of tokens which are not managed by the Vault)
+6. Governance cannot block liquidity provider funds for withdrawing
+7. Bad actor on governance side cannot permanently lock protocol / pools / etc
+8. VaultTokens are sorted by address in any vault
+
 ## Contact us 📲
 
 Feel free to ping us:
@@ -243,17 +254,54 @@ Additionally Protocol Governance admin can perform certain tasks on protocol man
 
 Only tokens whitelisted by Protocol Governance can be used for creating new Vaults
 
-## Invariants that should uphold at all times
-
-1. Strategy (approved ERC721 person) should not be able to pull the funds anywhere outside of the vault system
-2. Liquidity provider shall be able to withdraw funds at all times
-3. No one should be able to withdraw smth with zero investment (i.e. no arbitrage / exploits is possible).
-4. No one can block withdrawing or claim funds which doesn't not belong to him
-5. Governance cannot withdraw liquidity provider funds (with the exception of tokens which are not managed by the Vault)
-6. Governance cannot block liquidity provider funds for withdrawing
-7. Bad actor on governance side cannot permanently lock protocol / pools / etc
-8. VaultTokens are sorted by address in any vault
-
 ## Setup, tests, etc.
 
 See Contracts [README.md](https://github.com/code-423n4/2021-12-mellow/blob/main/mellow-vaults/README.md)
+
+## Run unit tests
+
+Required env variables (could be addred to `.env` file):
+
+```
+MAINNET_RPC=<ethereum rpc endpoint>
+KOVAN_RPC=<ethereum rpc endpoint>
+```
+
+MAINNET_RPC should be able to serve acrhive node api. E.g. [Alchemy](https://www.alchemy.com/) can do that.
+
+```bash
+yarn
+yarn coverage
+```
+
+**Tests coverage report**
+
+```bash
+open coverage/index.html
+```
+
+## Deploy
+
+Required env variables (could be added to `.env` file):
+
+```
+MAINNET_RPC=<ethereum rpc endpoint>
+KOVAN_RPC=<ethereum rpc endpoint>
+MAINNET_DEPLOYER_PK=0x.... # for mainnet deploy
+KOVAN_DEPLOYER_PK=0x.... # for kovan deploy
+```
+
+```bash
+yarn
+yarn deploy:hardhat
+# or yarn deploy:kovan
+# or yarn deploy:mainnet
+```
+
+## Check contract size
+
+```bash
+yarn
+yarn size
+```
+
