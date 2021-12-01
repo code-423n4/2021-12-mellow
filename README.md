@@ -203,6 +203,21 @@ Helper contract for `YearnVaultGovernance` that can create new Yearn Vaults.
 Governance that manages all Yearn Vaults params and can deploy a new Yearn Vault.
 [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#yearnvaultgovernance).
 
+**UniV3Vault**
+
+Vault that interfaces UniV3 protocol in the integration layer.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#univ3vault).
+
+**UniV3VaultFactory**
+
+Helper contract for `UniV3VaultGovernance` that can create new UniV3 Vaults.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#univ3vaultfactory).
+
+**UniV3VaultGovernance**
+
+Governance that manages all UniV3 Vaults params and can deploy a new UniV3 Vault.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#univ3vaultgovernance).
+
 ### External calls made by our contracts:
 
 - Aave
