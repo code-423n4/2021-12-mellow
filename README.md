@@ -108,7 +108,9 @@ Strategies are smart-contracts that implement the models to provide effective li
 Vaults allocate multiple ERC-20 tokens into other DeFi protocols and rebalance the liquidity in accordance with Strategies inside and between the protocols.
 
 A typical vault and strategy setup would be made by using Mellow Permissioless Vaults _deployVault_ function. As a result, the following set of smart contracts (called Vault System) would be established **for every strategy and token pair**:
-![](https://miro.medium.com/max/1400/1*GeSO8eJ8WZUEjgko8V3LkQ.gif =x250)
+![](https://miro.medium.com/max/1400/1*GeSO8eJ8WZUEjgko8V3LkQ.gif)
+<img src="https://miro.medium.com/max/1400/1*GeSO8eJ8WZUEjgko8V3LkQ.gif" width="250">
+
 
 ## Protocol architecture 🛠
 
