@@ -91,15 +91,17 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
-
-# Welcome to Mellow Protocol 👾
+## Greetings
 
 Hello legends!💪
 
 🧐 We look forward to you dissecting our code and helping us improve the security! Feel free to ask any small or big questions, and ask for guidance or clarifications.
 
 💬 Please pay attention to the docs and shoot any questions you have on Discord - we’ll be online to respond.
+
+# Welcome to Mellow Protocol 👾
+
+TBA - LOGO, etc
 
 # Useful links 🧐
 
@@ -172,6 +174,15 @@ We can logically separate contracts into Vault Groups. Each Vault Group is a set
 Upon Vault creation, the Vault Registry contract mints a new ERC-721 token that represents that Vault.
 
 ## 📟 Contracts overview 📟
+
+- AaveVault: Vault that interfaces Aave protocol in the integration layer.
+  [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevault).
+
+- AaveVaultFactory: Helper contract for `AaveVaultGovernance` that can create new Aave Vaults.
+  [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevaultfactory).
+
+- AaveVaultGovernance: Governance that manages all Aave Vaults params and can deploy a new Aave Vault.
+  [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#aavevaultgovernance).
 
 ### External calls made by our contracts:
 
