@@ -79,7 +79,7 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 ---
 
-# Mellow Finance contest details
+# Mellow Protocol contest details
 
 - $47,500 USDC main award pot
 - $2,500 gas optimization award pot
@@ -88,8 +88,6 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts December 2, 2021 00:00 UTC
 - Ends December 8, 2021 23:59 UTC
-
-This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
 # Welcome to Mellow Protocol 👾
 
