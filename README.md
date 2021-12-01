@@ -271,6 +271,10 @@ Abstract contract that has logic common for every Vault. [See details](https://d
 
 Internal contract for managing different params. [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#vaultgovernance).
 
+**ProtocolGovernance**
+
+Governance that manages all params common for Mellow Permissionless Vaults protocol. [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#protocolgovernance).
+
 **DefaultAccessControl**
 
 This is a default access control with 2 roles - ADMIN and ADMIN_DELEGATE. [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#defaultaccesscontrol).
@@ -278,6 +282,18 @@ This is a default access control with 2 roles - ADMIN and ADMIN_DELEGATE. [See d
 **CommonLibrary**
 
 Common shared utilities
+
+**ChiefTrader**
+
+Main contract that allows trading of ERC20 tokens on different Dexes. [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#chieftrader).
+
+**UniV3Trader**
+
+Contract that can execute ERC20 swaps on Uniswap V3. [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#univ3trader).
+
+**Trader**
+
+Base contract for every trader contract (a contract that can execute ERC20 swaps). [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#trader).
 
 ### External calls made by our contracts:
 
