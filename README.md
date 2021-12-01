@@ -12,7 +12,7 @@ Hello legends! 💪
 - $45,000 USDC main award pot
 - $5,000 gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://coderena.com/contests/2021-12-mellow-protocol-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2021-12-mellow-protocol-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts December 2, 2021 00:00 UTC
 - Ends December 8, 2021 23:59 UTC
