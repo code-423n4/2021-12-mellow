@@ -101,13 +101,11 @@ Hello legends! 💪
 
 💬 Please pay attention to the docs and shoot any questions you have on Discord - we’ll be online to respond.
 
-TBA - LOGO, etc
-
 # Useful links 🧐
 
 [Protocol documentation](https://docs.mellow.finance/) – the most complete information about the contracts
 
-[Contract API](https://docs.mellow.finance/mellow-permissionless-vaults/api) - gitbook docs generated from contracts
+[Contract API](https://docs.mellow.finance/mellow-permissionless-vaults/api) – gitbook docs generated from contracts
 
 [Vaults design article](https://mellowprotocol.medium.com/mellow-protocol-vaults-design-ed09bed7b869) – protocol design overview (A Medium article)
 
@@ -147,12 +145,15 @@ The protocol is designed for implementing multi-token cross-protocol liquidity r
 The Vault contracts hold the tokens and rebalance them both inside other protocols and between them. Strategy contracts interact with Vault contracts definig the rebalancing parameters.
 
 **Liquidity provider**
+
 Users pick a strategy that fits their needs and allocate their assets into a vault to earn yield. When the assets are deposited, users get composable LP tokens (ERC-20).
 
 **Strategies**
+
 Strategies are smart-contracts that implement the models to provide effective liquidity allocation. Different market events can trigger the strategies to initiate rebalance.
 
 **Vaults**
+
 Vaults allocate multiple ERC-20 tokens into other DeFi protocols and rebalance the liquidity in accordance with Strategies inside and between the protocols.
 
 A typical vault and strategy setup would be made by using Mellow Permissioless Vaults _deployVault_ function. As a result, the following set of smart contracts (called Vault System) would be established **for every strategy and token pair**:
