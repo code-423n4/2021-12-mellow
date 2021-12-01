@@ -23,7 +23,7 @@ Hello legends! 💪
 
 [Contract API](https://docs.mellow.finance/mellow-permissionless-vaults/api) – gitbook docs generated from contracts
 
-[Vaults design article](https://mellowprotocol.medium.com/mellow-protocol-vaults-design-ed09bed7b869) – protocol design overview (A Medium article)
+[Vaults design article](https://mellowprotocol.medium.com/mellow-protocol-vaults-design-ed09bed7b869) – protocol design overview (Medium)
 
 [Twitter](https://twitter.com/Mellowprotocol) | [Discord](https://discord.gg/w6sJDJrV65) | [Website](https://mellow.finance/)
 
