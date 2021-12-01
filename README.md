@@ -263,6 +263,22 @@ Helper contract for `LpIssuerGovernance` that can create new Lp Issuers.
 Governance that manages all LpIssuers params and can deploy a new LpIssuer.
 [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#lpissuergovernance).
 
+**Vault**
+
+Abstract contract that has logic common for every Vault. [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#vault).
+
+**VaultGovernance**
+
+Internal contract for managing different params. [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#vaultgovernance).
+
+**DefaultAccessControl**
+
+This is a default access control with 2 roles - ADMIN and ADMIN_DELEGATE. [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#defaultaccesscontrol).
+
+**CommonLibrary**
+
+Common shared utilities
+
 ### External calls made by our contracts:
 
 - Aave
