@@ -31,7 +31,7 @@ Hello legends! 💪
 # Contest Scope 
 
 The following contracts are in scope:
-|File|Comments|Code|Statements|Branches|Functions|Lines (excluding global variable declarations, function signatures , run over lines and event definitions)
+|File|Comments|Code|Statements|
 |-|-|-|-|-|-|-|
 | contracts/LpIssuer.sol                                |                   35      |       48      |      278  
 | contracts/UniV3Vault.sol                              |                   24      |       11      |      209
@@ -276,7 +276,7 @@ Additionally Protocol Governance admin can perform certain tasks on protocol man
 
 Only tokens whitelisted by Protocol Governance can be used for creating new Vaults.
 
-## Setup, tests, etc.
+## Setup, tests, etc. ✨
 
 See Contracts [README.md](https://github.com/code-423n4/2021-12-mellow/blob/main/mellow-vaults/README.md)
 
