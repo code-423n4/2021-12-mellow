@@ -326,14 +326,14 @@ Additionally Protocol Governance admin can perform certain tasks on protocol man
 
 ## Invariants that should uphold at all times
 
-2. Strategy (approved ERC721 person) should not be able to pull the funds anywhere outside of the vault system
-3. Liquidity provider shall be able to withdraw funds at all times
-4. No one should be able to withdraw smth with zero investment (i.e. no arbitrage / exploits is possible).
-5. No one can block withdrawing or claim funds which doesn't not belong to him
-6. Governance cannot withdraw liquidity provider funds (with the exception of tokens which are not managed by the Vault)
-7. Governance cannot block liquidity provider funds for withdrawing
-8. Bad actor on governance side cannot permanently lock protocol / pools / etc
-9. VaultTokens are sorted by address in any vault
+1. Strategy (approved ERC721 person) should not be able to pull the funds anywhere outside of the vault system
+2. Liquidity provider shall be able to withdraw funds at all times
+3. No one should be able to withdraw smth with zero investment (i.e. no arbitrage / exploits is possible).
+4. No one can block withdrawing or claim funds which doesn't not belong to him
+5. Governance cannot withdraw liquidity provider funds (with the exception of tokens which are not managed by the Vault)
+6. Governance cannot block liquidity provider funds for withdrawing
+7. Bad actor on governance side cannot permanently lock protocol / pools / etc
+8. VaultTokens are sorted by address in any vault
 
 ## Setup, tests, etc
 
