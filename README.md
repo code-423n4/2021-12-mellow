@@ -177,6 +177,9 @@ Upon Vault creation, the Vault Registry contract mints a new ERC-721 token that 
 - Uniswap
   - Router: `exactInput`, `exactOutput`
   - NonfungiblePositionManager: `increaseLiquidity`, `decreaseLiquidity`, `collect`, `positions`
+- Yearn
+  - Yearn Vault Registry: `latestVault`
+  - yTokens: `deposit`, `withdraw`, `balanceOf`
 
 ## How we protect the protocol 🔐
 
