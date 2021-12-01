@@ -61,7 +61,8 @@ The following contracts are in scope:
 | contracts/GatewayVaultFactory.sol                     |                    4      |        5      |       15
 | contracts/YearnVaultFactory.sol                       |                    4      |        5      |       15
 | contracts/trader/Trader.sol                           |                    4      |        2      |       13
-| contracts/trader/libraries/TraderExceptionsLibrary.sol |                    1      |        1       |      13
+| contracts/trader/libraries/TraderExceptionsLibrary.sol |                   1      |        1      |       13
+| **TOTAL**                           |                    377      |        555      |       2519
 
 ## Invariants that should uphold at all times ✅
 
