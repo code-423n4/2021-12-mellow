@@ -233,6 +233,21 @@ Helper contract for `ERC20VaultGovernance` that can create new ERC20 Vaults.
 Governance that manages all ERC20 Vaults params and can deploy a new ERC20 Vault.
 [See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#erc20vaultgovernance).
 
+**GatewayVault**
+
+Vault that combines several integration layer Vaults into one Vault.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#gatewayvault).
+
+**GatewayVaultFactory**
+
+Helper contract for `GatewayVaultGovernance` that can create new Gateway Vaults.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#gatewayvaultfactory).
+
+**GatewayVaultGovernance**
+
+Governance that manages all Gateway Vaults params and can deploy a new Gateway Vault.
+[See details](https://docs.mellow.finance/mellow-permissionless-vaults/api#gatewayvaultgovernance).
+
 ### External calls made by our contracts:
 
 - Aave
