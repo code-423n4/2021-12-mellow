@@ -31,7 +31,7 @@ Hello legends! 💪
 # Contest Scope 
 
 The following contracts are in scope:
-|File|Comments|Code|Statements|
+|File|Comments|Code|Statements
 |-|-|-|-|-|-|-|
 | contracts/LpIssuer.sol                                |                   35      |       48      |      278  
 | contracts/UniV3Vault.sol                              |                   24      |       11      |      209
