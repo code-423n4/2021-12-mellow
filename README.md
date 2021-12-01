@@ -278,7 +278,7 @@ Additionally Protocol Governance admin can perform certain tasks on protocol man
 
 Only tokens whitelisted by Protocol Governance can be used for creating new Vaults.
 
-## Setup, tests, etc. ✨
+## Setup, tests, etc. 🪄
 
 See Contracts [README.md](https://github.com/code-423n4/2021-12-mellow/blob/main/mellow-vaults/README.md)
 
